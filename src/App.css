@@ -1,0 +1,159 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.header-left {
+    display: flex;
+    align-items: center; /* aliniere pe verticală */
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spatiu intre butoane */
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spațiu între linkuri */
+}
+
+.login-link {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.categories {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.image-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.image-section img {
+    width: 40px;
+    margin-right: 10px;
+}
+.nav-button {
+    padding: 10px 20px;
+    background-color: #ffa200;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #ffa200;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #ffa200;
+    padding: 10px 20px;
+    border: 1px solid #ffa200;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.login-link:hover {
+    background-color: #ffa200;
+    color: white;
+}
+
+.nav-link {
+    color: #ffa200;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Spațiu între iconiță și text */
+    padding: 10px 20px;
+    border: 1px solid #ffa200;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #ffa200;
+    color: white;
+}
+
+.nav-link .fa {
+    font-size: 20px; /* Dimensiune iconiță */
+    color: #ffa200; /* Culoare iconiță */
+}
+
+.nav-link:hover .fa {
+    color: white; /* Culoare iconiță la hover */
+}
+
+.main-image-section {
+    width: 100%;
+    height: 500px; /* Ajustează înălțimea imaginii */
+    overflow: hidden;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asigură-te că imaginea umple secțiunea */
+}
+
+.widget {
+    position: absolute; /* Poziționare absolută peste imagine */
+    background-color: rgba(255, 255, 255, 0.7); /* Fundal semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Widget pentru logo */
+.lego-widget {
+    top: 50%; /* Poziționează widgetul pe verticală (ajustează după cum vrei) */
+    left: 10%; /* Poziționează widgetul pe orizontală (ajustează după cum vrei) */
+    width: 25%;
+    text-align: center;
+}
+
+/* Widget pentru trenuri */
+.trains-widget {
+    top: 50%; /* Poziționează widgetul pe verticală (ajustează după cum vrei) */
+    right: 10%; /* Poziționează widgetul pe orizontală (ajustează după cum vrei) */
+    width: 25%;
+    text-align: center;
+}
+
+.explore-button {
+    padding: 10px 20px;
+    background-color: #ffa200;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+}
+
